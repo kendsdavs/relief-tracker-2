@@ -8,10 +8,17 @@ const Service = (Component) => React.createClass({
           callback(err, body)
     })
   },
+  post(model, doc, callback) {
+    xhr.post('http://127.0.0.1:4000/' + model,
+    {json: doc}, (err, response, body) => {
+      callback(err, body)
+    })
+  },
   render() {
     return (
       <Component {...this.props}
         allDocs={this.allDocs}
+        post={this.post}
 
       />
     )

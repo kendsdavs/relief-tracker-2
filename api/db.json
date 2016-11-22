@@ -1,7 +1,41 @@
 {
-  "efforts": [{
-    "id": 1,
-    "name": "practice React"
-    }],
-  "locations": []
+  "efforts": [
+    {
+      "id": 1,
+      "name": "practice React"
+    },
+    {
+      "name": "Again",
+      "id": 2
+    },
+    {
+      "name": "Baby Booo",
+      "location_id": "2",
+      "id": 3
+    },
+    {
+      "name": "Tigers loose",
+      "location_id": "Clemson",
+      "id": 4
+    },
+    {
+      "name": "C of C",
+      "location_id": "Charleston",
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Charleston"
+    },
+    {
+      "id": 2,
+      "name": "Columbia"
+    },
+    {
+      "id": 3,
+      "name": "Clemson"
+    }
+  ]
 }
